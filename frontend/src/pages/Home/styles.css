@@ -1,0 +1,51 @@
+.home-container {
+  padding: 40px;
+}
+
+.start-button {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.home-container h1 {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.home-container p {
+  width: 423px;
+  height: 40px;
+  left: 41px;
+  top: 153px;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  color: #7e7e7e;
+}
+
+
+@media (min-width: 576px) {
+  .home-container {
+    padding: 15px;
+    font-size: 40px;
+  }
+
+  .home-content-container h1 {
+    width: 506px;
+    margin-bottom: 20px;
+  }
+
+  .home-container  p {
+    width: 506px;
+    margin-bottom: 20px;
+  }
+
+}
